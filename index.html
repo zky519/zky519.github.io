@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ZKY 的个人主页，记录学习、生活与灵感。">
+  <title>ZKY · 个人主页</title>
+  <style>
+    :root{color-scheme:light;--ink:#213b35;--muted:#677b73;--accent:#36735d}
+    *{box-sizing:border-box}body{margin:0;background:#f6f7f1;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8}
+    a{color:inherit}header,main,footer{max-width:1040px;margin:auto;padding:0 28px}header{display:flex;justify-content:space-between;align-items:center;padding-top:28px;padding-bottom:28px}.logo{font-size:21px;font-weight:800;text-decoration:none;letter-spacing:2px}nav{display:flex;gap:24px}nav a{text-decoration:none;font-size:14px;color:var(--muted)}a:hover{color:var(--accent)}
+    .hero{padding:80px 0 85px;max-width:760px}.eyebrow{color:var(--accent);font-size:13px;font-weight:600;letter-spacing:3px}.hero h1{font-size:clamp(42px,7vw,72px);line-height:1.22;letter-spacing:-2px;margin:22px 0}.hero p{font-size:18px;color:var(--muted);max-width:550px}.button{display:inline-block;margin-top:20px;padding:11px 23px;background:var(--ink);color:white;border-radius:9px;text-decoration:none}.button:hover{color:white;background:var(--accent)}
+    section{scroll-margin-top:25px}.section-title{font-size:24px;margin:0 0 22px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid #e3e9df;border-radius:16px;padding:27px}.number{font-size:12px;color:var(--accent);letter-spacing:2px}.card h3{font-size:19px;margin:17px 0 10px}.card p{font-size:14px;color:var(--muted);margin:0}.about{margin:65px 0;padding:34px;background:#e8eee3;border-radius:16px}.about p{color:var(--muted);margin:0;max-width:720px}.contact{padding-bottom:55px}.contact p{color:var(--muted)}.contact a{text-underline-offset:5px}footer{border-top:1px solid #dfe6da;padding-top:22px;padding-bottom:25px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:15px}
+    @media(max-width:650px){header,main,footer{padding-left:22px;padding-right:22px}nav{gap:15px}.hero{padding:50px 0 60px}.cards{grid-template-columns:1fr}.about{margin:40px 0;padding:25px}footer{flex-direction:column;gap:2px}}
+  </style>
+</head>
+<body>
+  <header><a class="logo" href="#">ZKY<span style="color:#7d9f75">.</span></a><nav aria-label="主导航"><a href="#interests">我的兴趣</a><a href="#about">关于我</a><a href="#contact">联系</a></nav></header>
+  <main>
+    <section class="hero"><div class="eyebrow">WELCOME TO MY LITTLE CORNER</div><h1>你好，我是 ZKY。<br>保持好奇，慢慢生长。</h1><p>欢迎来到我的个人主页。这里是我记录学习、探索新事物，以及收藏生活灵感的小小空间。</p><a class="button" href="#about">认识一下我 ↗</a></section>
+    <section id="interests"><h2 class="section-title">正在探索的事</h2><div class="cards"><article class="card"><span class="number">01 / LEARNING</span><h3>学习与成长</h3><p>每天学一点新知识，让想法逐渐变成可以实现的小目标。</p></article><article class="card"><span class="number">02 / CREATING</span><h3>技术与创造</h3><p>尝试有趣的工具，把灵感变成作品，从这个小小的网站开始。</p></article><article class="card"><span class="number">03 / LIVING</span><h3>生活与发现</h3><p>留意日常里的美好，记录值得记住的风景、瞬间和故事。</p></article></div></section>
+    <section class="about" id="about"><h2 class="section-title">关于这个小站</h2><p>这是我的第一个个人网站，也是一个新的开始。未来，我会在这里分享自己的作品、学习笔记和生活记录。内容正在慢慢丰富，欢迎你常来看看。</p></section>
+    <section class="contact" id="contact"><h2 class="section-title">保持联系</h2><p>更多探索与作品，可以在我的 GitHub 上找到。</p><a href="https://github.com/zky519" target="_blank" rel="noopener noreferrer">访问我的 GitHub ↗</a></section>
+  </main>
+  <footer><span>© ZKY · 个人主页</span><span>用好奇心，记录每一步。</span></footer>
+</body>
+</html>
