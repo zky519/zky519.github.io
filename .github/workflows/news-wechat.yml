@@ -1,0 +1,32 @@
+name: News WeChat notification
+on:
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: news-wechat
+  cancel-in-progress: false
+jobs:
+  notify:
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.run_attempt == 1)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+          fetch-depth: 2
+      - name: Check news update
+        id: news
+        run: |
+          if git diff HEAD^ HEAD --name-only | grep -qx 'news-data.js'; then
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Confirm live data and send WeChat notification
+        if: steps.news.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        env:
+          SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
+        run: python3 scripts/notify_wechat.py
