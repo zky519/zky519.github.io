@@ -9,7 +9,7 @@ window.NEWS_DATA = {
       "source": "Solidot",
       "url": "https://www.solidot.org/story?sid=85865",
       "publishedAt": "2026-11-12T14:49:27+08:00",
-      "context": "来源自带简介，不含AI生成摘要或独立事实核查。",
+      "context": "",
       "verification": "rss_source_excerpt"
     },
     {
@@ -19,7 +19,7 @@ window.NEWS_DATA = {
       "source": "IT之家",
       "url": "https://www.ithome.com/1/026/131.htm",
       "publishedAt": "2026-11-12T08:19:20+00:00",
-      "context": "来源自带简介，不含AI生成摘要或独立事实核查。",
+      "context": "",
       "verification": "rss_source_excerpt"
     },
     {
@@ -29,7 +29,7 @@ window.NEWS_DATA = {
       "source": "IT之家",
       "url": "https://www.ithome.com/1/026/130.htm",
       "publishedAt": "2026-11-12T08:18:55+00:00",
-      "context": "来源自带简介，不含AI生成摘要或独立事实核查。",
+      "context": "",
       "verification": "rss_source_excerpt"
     },
     {
@@ -39,7 +39,7 @@ window.NEWS_DATA = {
       "source": "IT之家",
       "url": "https://www.ithome.com/1/026/125.htm",
       "publishedAt": "2026-11-12T08:09:35+00:00",
-      "context": "来源自带简介，不含AI生成摘要或独立事实核查。",
+      "context": "",
       "verification": "rss_source_excerpt"
     },
     {
@@ -49,7 +49,7 @@ window.NEWS_DATA = {
       "source": "IT之家",
       "url": "https://www.ithome.com/1/026/120.htm",
       "publishedAt": "2026-11-12T07:57:44+00:00",
-      "context": "来源自带简介，不含AI生成摘要或独立事实核查。",
+      "context": "",
       "verification": "rss_source_excerpt"
     },
     {
@@ -59,7 +59,7 @@ window.NEWS_DATA = {
       "source": "BBC Asia",
       "url": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-11-12T08:26:50+00:00",
-      "context": "来源自带简介，不含AI生成摘要或独立事实核查。",
+      "context": "",
       "verification": "rss_source_excerpt"
     },
     {
@@ -69,7 +69,7 @@ window.NEWS_DATA = {
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-11-12T08:14:54+00:00",
-      "context": "来源自带简介，不含AI生成摘要或独立事实核查。",
+      "context": "",
       "verification": "rss_source_excerpt"
     },
     {
@@ -79,7 +79,7 @@ window.NEWS_DATA = {
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-11-12T07:59:33+00:00",
-      "context": "来源自带简介，不含AI生成摘要或独立事实核查。",
+      "context": "",
       "verification": "rss_source_excerpt"
     },
     {
@@ -89,7 +89,7 @@ window.NEWS_DATA = {
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/ck5ynyw527wdo?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-11-12T07:30:44+00:00",
-      "context": "来源自带简介，不含AI生成摘要或独立事实核查。",
+      "context": "",
       "verification": "rss_source_excerpt"
     },
     {
@@ -99,7 +99,7 @@ window.NEWS_DATA = {
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-11-12T08:11:44+00:00",
-      "context": "来源自带简介，不含AI生成摘要或独立事实核查。",
+      "context": "",
       "verification": "rss_source_excerpt"
     },
     {
@@ -109,7 +109,7 @@ window.NEWS_DATA = {
       "source": "GamesRadar",
       "url": "https://www.gamesradar.com/games/mass-effect/bioware-could-make-mass-effect-2-in-18-months-because-it-didnt-fire-everyone-listened-to-the-player-and-grew-ruthless-about-limiting-scope-says-former-lead/",
       "publishedAt": "2026-11-12T00:37:54+00:00",
-      "context": "来源自带简介，不含AI生成摘要或独立事实核查。",
+      "context": "",
       "verification": "rss_source_excerpt"
     },
     {
@@ -119,7 +119,7 @@ window.NEWS_DATA = {
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/software/ai/nvidia-ceo-jensen-huang-allegedly-had-a-second-affair-with-another-nvidia-exec/",
       "publishedAt": "2026-11-11T23:25:39+00:00",
-      "context": "来源自带简介，不含AI生成摘要或独立事实核查。",
+      "context": "",
       "verification": "rss_source_excerpt"
     },
     {
@@ -129,7 +129,7 @@ window.NEWS_DATA = {
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/gaming-industry/giana-sisters-developer-black-forest-games-buys-itself-out-of-embracer-some-of-the-best-games-of-the-last-decade-came-from-teams-of-fifty-not-five-hundred/",
       "publishedAt": "2026-11-11T22:57:44+00:00",
-      "context": "来源自带简介，不含AI生成摘要或独立事实核查。",
+      "context": "",
       "verification": "rss_source_excerpt"
     },
     {
@@ -139,7 +139,7 @@ window.NEWS_DATA = {
       "source": "PC Gamer",
       "url": "https://www.pcgamer.com/games/rpg/this-solo-dev-is-building-the-most-violent-cozy-farming-game-ever-made-and-lumberjacking-has-never-looked-cooler/",
       "publishedAt": "2026-11-11T22:38:37+00:00",
-      "context": "来源自带简介，不含AI生成摘要或独立事实核查。",
+      "context": "",
       "verification": "rss_source_excerpt"
     },
     {
@@ -149,7 +149,7 @@ window.NEWS_DATA = {
       "source": "GamesRadar",
       "url": "https://www.gamesradar.com/entertainment/marvel-movies/avengers-endgame-encore-hits-disney-plus-on-friday-and-with-all-of-those-doomsday-teasing-post-credits-scenes-in-tow/",
       "publishedAt": "2026-11-11T22:15:00+00:00",
-      "context": "来源自带简介，不含AI生成摘要或独立事实核查。",
+      "context": "",
       "verification": "rss_source_excerpt"
     },
     {
@@ -159,7 +159,7 @@ window.NEWS_DATA = {
       "source": "Motorsport F1",
       "url": "https://www.motorsport.com/f1/news/final-mercedes-benz-slr-mclaren-stirling-moss-heads-to-auction-for-over-6million/10873978/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
       "publishedAt": "2026-11-12T00:31:56+00:00",
-      "context": "来源自带简介，不含AI生成摘要或独立事实核查。",
+      "context": "",
       "verification": "rss_source_excerpt"
     },
     {
@@ -169,10 +169,10 @@ window.NEWS_DATA = {
       "source": "Motorsport F1",
       "url": "https://www.motorsport.com/f1/news/george-russell-credits-toto-wolffs-loyalty-for-mercedes-f1-title-return-nobody-was-hired-or-fired/10873975/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
       "publishedAt": "2026-11-12T00:01:07+00:00",
-      "context": "来源自带简介，不含AI生成摘要或独立事实核查。",
+      "context": "",
       "verification": "rss_source_excerpt"
     }
   ],
   "revision": 1,
-  "notice": "RSS 来源简介 · 保留原文语言 · 未经独立事实核查 · 本期 17 条"
+  "notice": "本期 17 条"
 };

@@ -61,9 +61,11 @@ def parse_feed(raw, source, now):
         if not dt.timedelta(0)<=now-date<=dt.timedelta(hours=72): continue
         summary=clean(fields.get('description') or fields.get('summary') or fields.get('encoded') or fields.get('content'))
         text=title+' '+summary
-        if category=='ai' and not AI.search(text): continue
-        if category=='games' and (not GAME.search(text) or EXCLUDE.search(title)): continue
-        out.append(dict(title=title,summary=summary[:500] or '来源未提供简介，请点击标题阅读原文。',category=category,source_name=name,source_url=link.split('#')[0],published_at=date.isoformat(),region=region,is_tech_related=bool(TECH.search(text)),game_type='unspecified' if category=='games' else None,verification='rss_source_excerpt',ready_for_publication=True,why_it_matters='来源简介；未经独立事实核查，不含AI生成分析。'))
+        if category=='ai' and not AI.search(title): continue
+        if category=='games' and (not GAME.search(title) or EXCLUDE.search(title) or re.search(r'Avengers|Disney Plus|Marvel|TV series|movie|Jensen Huang|affair|Nvidia CEO',title,re.I)): continue
+        if category=='f1' and not re.search(r'F1|Formula 1|Grand Prix|Verstappen|Hamilton|Russell|Antonelli|Piastri|Leclerc|Norris|Wolff|Ferrari|Red Bull|Mercedes',title,re.I): continue
+        if category=='f1' and re.search(r'auction|road car|Stirling Moss|SLR McLaren',title,re.I): continue
+        out.append(dict(title=title,summary=summary[:500] or '来源未提供简介，请点击标题阅读原文。',category=category,source_name=name,source_url=link.split('#')[0],published_at=date.isoformat(),region=region,is_tech_related=bool(TECH.search(text)),game_type='unspecified' if category=='games' else None,verification='rss_source_excerpt',ready_for_publication=True,why_it_matters=''))
     return out
 
 def fetch(source,now):
@@ -85,6 +87,7 @@ def select(candidates,now):
                 chosen.append(x);seen.add(x['source_url']);titles.add(key);count-=1
         # Soft geographic/technology preferences; fill remaining slots by recency.
         if cat in ('ai','politics_economy'): take(lambda x:x['region']=='china',2)
+        if cat=='ai': take(lambda x:x['region']=='international',3)
         if cat=='politics_economy':
             take(lambda x:x['region']=='asia_pacific',1)
             take(lambda x:x['is_tech_related'],3-sum(x['is_tech_related'] for x in chosen))
