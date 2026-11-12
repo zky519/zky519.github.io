@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "updatedAt": "2026-11-12T16:41:37.107610+08:00",
+  "updatedAt": "2026-11-12T16:43:55.418705+08:00",
   "reportDate": "2026-11-12",
   "items": [
     {
@@ -9,26 +9,6 @@ window.NEWS_DATA = {
       "source": "Solidot",
       "url": "https://www.solidot.org/story?sid=85865",
       "publishedAt": "2026-11-12T14:49:27+08:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
-      "title": "京东 2026 双十一战报出炉：产生超 3 亿服务订单、超 2000 个家电家居品牌成交额同比增长 100%",
-      "summary": "IT之家 11 月 12 日消息，京东现已公布 2026 年度双十一成交数据，截至 11 月 11 日 23:59，2026 年京东 11.11 共售出超 5000 万件 AI 产品，产生超 3 亿服务订单， 第一次参加京东 11.11 的新用户平均下单 6 件商品 。 京东表示，截至 11 月 11 日 23:59，JoyInside 累计完成超 7000 万次交互，已经成为百万家庭的 AI 伙伴。JoyAI App 日均活跃用户峰值达常态期 5 倍以上。京东 11.11 期间，AI 医生“大为”问诊订单量同比增长超 5 倍。11.11 全周期，AIPC、AI 工作站、AI 相机、AI 眼镜、AI 录音设备等 AI 趋势品成交额同比增长超 100%，“Token”搜索量环比提升超 13 倍，京东平台大模型 Token 包销量环比增长超 10 倍。 具体品牌方面， 海尔、美的、海信、TCL、格力、小米、石头等品牌成交额突破 10 亿元 ，超过 2000 个家电家居品牌成交额同比增长 100%，京东超市超 1000 个品牌、京东五金城超 6000 个工业品品牌成交额同比增长超 100%，",
-      "category": "AI行业",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/131.htm",
-      "publishedAt": "2026-11-12T08:19:20+00:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
-      "title": "定价近 500 万元！奥迪全新超跑 Nuvolari 确认将进入美国市场",
-      "summary": "IT之家 11 月 12 日消息，奥迪已经确认，旗下全新 Nuvolari 超级跑车将进入美国市场。这款车全球计划仅生产 499 辆，其中美国市场分到 182 辆。即便有幸获得购买资格，消费者也要付出天价。 奥迪表示，Nuvolari 在美国市场的起售价为 70 万美元 （IT之家注：现汇率约合 468 万元人民币） ，而且这个价格还不包含目的地运费，因此实际购车成本还会更高。 动力方面，Nuvolari 搭载一台双涡轮增压 V8 发动机，最大功率为 789 马力。此外，车辆还配备三台轴向磁通电机，系统综合功率提升至 987 马力。不过，奥迪特别指出，最终动力参数仍有可能调整。 性能方面，Nuvolari 从静止加速至 60 英里 / 小时（约 96 公里 / 小时）预计仅需 2.5 秒，最高时速可达 217 英里（约 349 公里）。 目前，Nuvolari 已经开放预订，但奥迪表示，预订窗口只会在有限时间内开放。新车预计将于 2028 年上半年开始交付。作为对比，兰博基尼 Temerario 的起售价不到 40 万美元 （现汇率约合 267.4 万元人民币） ，Nuvolari 的",
-      "category": "AI行业",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/130.htm",
-      "publishedAt": "2026-11-12T08:18:55+00:00",
       "context": "",
       "verification": "rss_source_excerpt"
     },
@@ -43,12 +23,32 @@ window.NEWS_DATA = {
       "verification": "rss_source_excerpt"
     },
     {
-      "title": "半岛铁盒推出 F40-AI 全塔机箱：支持 SSI-EEB 主板，提供 12 个硬盘位，650 元",
-      "summary": "IT之家 11 月 12 日消息，半岛铁盒现已在京东上架 F40 全塔机箱，该机箱支持 SSI-EEB 主板，提供 12 个硬盘位，兼容 360 水冷， 定价为 650 元 。 京东 半岛铁盒 F40-AI 机箱 650 元 直达链接 该机箱尺寸为 550 x 248 x 550mm，前面板采用六边形网孔设计，机箱采用快拆侧板并配备防脱落螺丝，多面均标配可水洗防尘网，I/O 方面提供两个 USB-A 3.0 与一个 USB-C 接口。 该机箱兼容 SSI-EEB、E-ATX、ATX、M-ATX 及 ITX 主板，并支持背插主板。内部提供 8 个 PCI-E 扩展槽，支持多卡并行。显卡最大长度支持 450mm，安装正面硬盘架时支持 360mm。机箱标配显卡支架，CPU 散热器最高支持 190mm。 存储配置方面，整机提供 12 个硬盘位。内部标配 10 个硬盘架，利用正背面空间，最多可安装 11 块机械硬盘或 12 块固态硬盘。机箱最多可安装 15 把风扇，包括前面板 4 把、顶部 3 把、壁挂 3 把、电源仓 3 把、背板 1 把及 1 把显卡挡片风扇，顶盖支持 420mm 或 360",
+      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+      "summary": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
       "category": "AI行业",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/026/120.htm",
-      "publishedAt": "2026-11-12T07:57:44+00:00",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+      "publishedAt": "2026-11-11T23:28:45+00:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
+      "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+      "summary": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+      "category": "AI行业",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+      "publishedAt": "2026-11-11T23:17:05+00:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
+      "title": "Why the data center you dread might never even be built",
+      "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure […]",
+      "category": "AI行业",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+      "publishedAt": "2026-11-11T20:15:15+00:00",
       "context": "",
       "verification": "rss_source_excerpt"
     },
@@ -113,16 +113,6 @@ window.NEWS_DATA = {
       "verification": "rss_source_excerpt"
     },
     {
-      "title": "Nvidia CEO Jensen Huang allegedly had a second affair with another Nvidia exec",
-      "summary": "<p>Tyler grew up in Silicon Valley during the '80s and '90s, playing games like Zork and Arkanoid on early PCs. He was later captivated by Myst, SimCity, Civilization, Command & Conquer, all the shooters they call \"boomer shooters\" now, and PS1 classic Bushido Blade (that's right: he had Bleem!). Tyler joined PC Gamer in 2011, and today he's focused on the site's news coverage. His hobbies include amateur boxing and adding to his 1,200-plus hours in Rocket League.</p>",
-      "category": "单机游戏",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/software/ai/nvidia-ceo-jensen-huang-allegedly-had-a-second-affair-with-another-nvidia-exec/",
-      "publishedAt": "2026-11-11T23:25:39+00:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
       "title": "Giana Sisters developer Black Forest Games buys itself out of Embracer: 'Some of the best games of the last decade came from teams of fifty, not five hundred'",
       "summary": "<p>Jody's first computer was a Commodore 64, so he remembers having to use a code wheel to play Pool of Radiance. A former music journalist who interviewed everyone from Giorgio Moroder to Trent Reznor, Jody also co-hosted Australia's first radio show about videogames, <a href=\"https://zedgamesau.net/tag/jody-macgregor\" target=\"_blank\">Zed Games</a>. He's written for <a href=\"https://www.rockpapershotgun.com/authors/jody-macgregor\" target=\"_blank\">Rock Paper Shotgun</a>, The Big Issue, <a href=\"",
       "category": "单机游戏",
@@ -143,22 +133,22 @@ window.NEWS_DATA = {
       "verification": "rss_source_excerpt"
     },
     {
-      "title": "Avengers: Endgame Encore hits Disney Plus on Friday with those Doomsday-teasing post-credits scenes",
+      "title": "The Witcher 4 lead feels a \"great responsibility\" after winning Golden Joystick for Most Wanted game",
       "summary": "null",
       "category": "单机游戏",
       "source": "GamesRadar",
-      "url": "https://www.gamesradar.com/entertainment/marvel-movies/avengers-endgame-encore-hits-disney-plus-on-friday-and-with-all-of-those-doomsday-teasing-post-credits-scenes-in-tow/",
-      "publishedAt": "2026-11-11T22:15:00+00:00",
+      "url": "https://www.gamesradar.com/games/the-witcher/the-witcher-4-production-director-feels-a-great-responsibility-after-winning-the-golden-joystick-for-most-wanted-game/",
+      "publishedAt": "2026-11-11T22:14:56+00:00",
       "context": "",
       "verification": "rss_source_excerpt"
     },
     {
-      "title": "Final Mercedes-Benz SLR McLaren Stirling Moss heads to auction for over $6million",
-      "summary": "The final Mercedes-Benz SLR McLaren Stirling Moss to leave the factory is back on the market, with RM Sotheby's valuing the roofless speedster at more than $6million (£4.5million). The car, chassis number 75, is in the auction house's online Sealed December sale, with bidding open from 25 November until 2 December. Mercedes and McLaren built 75 Stirling Moss models from June 2009 until the ... Keep reading",
-      "category": "F1",
-      "source": "Motorsport F1",
-      "url": "https://www.motorsport.com/f1/news/final-mercedes-benz-slr-mclaren-stirling-moss-heads-to-auction-for-over-6million/10873978/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-      "publishedAt": "2026-11-12T00:31:56+00:00",
+      "title": "Ahead of Persona 6 and his own new JRPG, series veteran takes us back to \"how Persona came about\"",
+      "summary": "null",
+      "category": "单机游戏",
+      "source": "GamesRadar",
+      "url": "https://www.gamesradar.com/games/persona/ahead-of-persona-6-and-his-own-new-jrpg-series-veteran-takes-us-back-to-how-persona-came-about/",
+      "publishedAt": "2026-11-11T21:57:26+00:00",
       "context": "",
       "verification": "rss_source_excerpt"
     },
@@ -169,6 +159,16 @@ window.NEWS_DATA = {
       "source": "Motorsport F1",
       "url": "https://www.motorsport.com/f1/news/george-russell-credits-toto-wolffs-loyalty-for-mercedes-f1-title-return-nobody-was-hired-or-fired/10873975/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
       "publishedAt": "2026-11-12T00:01:07+00:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
+      "title": "Bruno Senna reveals plans to put Kimi Antonelli behind the wheel of Ayrton Senna's F1 car",
+      "summary": "Former Formula 1 driver Bruno Senna says he wants to give Kimi Antonelli the chance to drive one of Ayrton Senna's cars next year, after the 2026 world champion visited the family's estate in Brazil. Antonelli arrived at the estate days after clinching his maiden F1 championship at the Mexican Grand Prix, becoming the youngest driver in the history of the series to win the title. Speaking on ... Keep reading",
+      "category": "F1",
+      "source": "Motorsport F1",
+      "url": "https://www.motorsport.com/f1/news/bruno-senna-reveals-plans-to-put-kimi-antonelli-behind-the-wheel-of-ayrton-sennas-f1-car/10873973/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
+      "publishedAt": "2026-11-11T23:55:02+00:00",
       "context": "",
       "verification": "rss_source_excerpt"
     }
