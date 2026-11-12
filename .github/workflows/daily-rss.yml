@@ -1,0 +1,58 @@
+name: Cloud daily RSS
+on:
+  schedule:
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: cloud-daily-rss
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect source excerpts
+        run: python scripts/collect_rss.py
+      - name: Import and label source excerpts
+        run: |
+          python scripts/import_news.py "$(cat rss-report-path.txt)"
+          python scripts/label_rss.py
+      - name: Save daily report
+        run: |
+          git config user.name 'daily-news-bot'
+          git config user.email 'daily-news-bot@users.noreply.github.com'
+          git add daily/*.json news-data.js
+          git diff --cached --quiet || git commit -m 'Update daily RSS excerpts'
+          git push
+      - name: Prepare public site
+        run: |
+          mkdir -p public
+          cp index.html news-data.js public/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - uses: actions/deploy-pages@v4
+        id: deployment
+      - name: Notify after deployment
+        env:
+          SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
+        run: python scripts/notify_wechat.py
+      - name: Save diagnostic logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rss-run-log
+          path: rss-run-log.json
+          retention-days: 14
