@@ -3,7 +3,7 @@
   "chinese_ratio": 0.7647058823529411,
   "schema_version": 1,
   "date": "2026-11-16",
-  "collected_at": "2026-11-16T10:04:03.795959+08:00",
+  "collected_at": "2026-11-16T10:09:56.548679+08:00",
   "status": "ready_for_publication",
   "mode": "rss_excerpt",
   "counts": {
@@ -134,6 +134,23 @@
       "why_it_matters": ""
     },
     {
+      "title": "2022年以来云南累计完成绿电交易超40亿千瓦时",
+      "summary": "中新网昆明11月16日电 (记者 韩帅南)记者15日从南方电网云南电网公司获悉，2022年以来，云南省累计完成绿电交易超过40亿千瓦时。其中，2026年1至10月绿电交易电量达到14.85亿千瓦时，占累计绿电交易电量近四成。目前，云南全省绿色能源交易电量占市场化交易电量比重已经超过90%。",
+      "category": "politics_economy",
+      "source_name": "中新网财经",
+      "source_language": "zh",
+      "publisher_id": "chinanews",
+      "feed_url": "https://www.chinanews.com.cn/rss/finance.xml",
+      "source_url": "https://www.chinanews.com.cn/cj/2026/11-16/10732608.shtml",
+      "published_at": "2026-11-16T10:01:56+08:00",
+      "region": "china",
+      "is_tech_related": true,
+      "game_type": null,
+      "verification": "rss_source_excerpt",
+      "ready_for_publication": true,
+      "why_it_matters": ""
+    },
+    {
       "title": "部分公司会迎来灭顶之灾：谷歌调整漏洞披露政策 从90天缩短到30天 敦促相关方尽快修复漏洞",
       "summary": "#安全资讯 对部分厂商来说这是灭顶之灾：谷歌安全团队决定缩短漏洞公开时间，从 90 天缩短到 30 天。即谷歌安全团队发现漏洞并报告给相关厂商后，漏洞在 30 天后就会被公开细节。谷歌希望通过这种方式敦促厂商收到通报后立即修复漏洞，而不是拖着。谷歌认为 AI 正在加速漏洞发掘和利用过程，即便漏洞没公开，黑客也可能通过 AI 找到漏洞并利用。查看全文：https://ourl.co/128385",
       "category": "politics_economy",
@@ -168,23 +185,6 @@
       "why_it_matters": ""
     },
     {
-      "title": "AI时代的饭碗要怎么端",
-      "summary": "近日，腾讯“裁员50%”的传言和随之而来的紧急辟谣，在舆论场激起巨大波澜。裁员传言是对腾讯管理层讲话中“50%像陆军、50%像海军”比喻的误读。但谣言之所以能引发广泛焦虑，恰恰因为它戳中了当下最敏感的神经：AI正在重塑组织结构，每个人都在问自己，我的饭碗还端得稳吗？",
-      "category": "politics_economy",
-      "source_name": "中新网财经",
-      "source_language": "zh",
-      "publisher_id": "chinanews",
-      "feed_url": "https://www.chinanews.com.cn/rss/finance.xml",
-      "source_url": "https://www.chinanews.com.cn/cj/2026/11-16/10732595.shtml",
-      "published_at": "2026-11-16T09:41:27+08:00",
-      "region": "china",
-      "is_tech_related": true,
-      "game_type": null,
-      "verification": "rss_source_excerpt",
-      "ready_for_publication": true,
-      "why_it_matters": ""
-    },
-    {
       "title": "AI泡沫监测·之三：英伟达的毛利期权——一张美国AI泡沫的层积图",
       "summary": "英伟达五万亿估值的本质，是70%以上毛利率的期权——全产业链都在替它交租。这篇把债务、选票、公司、收入、全球五层账本拼成一张图：租金退回（毛利归位）与刚性解锁（它亲手废约）两步棋怎么走，11月17日英伟达财报是第一场对账。",
       "category": "politics_economy",
@@ -207,7 +207,7 @@
       "category": "politics_economy",
       "source_name": "InfoQ 推荐",
       "source_language": "zh",
-      "publisher_id": "infoq.cn",
+      "publisher_id": "infoq",
       "feed_url": "https://plink.anyfeeder.com/infoq/recommend",
       "source_url": "https://www.infoq.cn/article/myl5Mcw3iyCYv3ZJ3hwQ",
       "published_at": "2026-11-16T00:00:00+00:00",

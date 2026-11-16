@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "updatedAt": "2026-11-16T10:04:03.795959+08:00",
+  "updatedAt": "2026-11-16T10:09:56.548679+08:00",
   "reportDate": "2026-11-16",
   "items": [
     {
@@ -73,6 +73,16 @@ window.NEWS_DATA = {
       "verification": "rss_source_excerpt"
     },
     {
+      "title": "2022年以来云南累计完成绿电交易超40亿千瓦时",
+      "summary": "中新网昆明11月16日电 (记者 韩帅南)记者15日从南方电网云南电网公司获悉，2022年以来，云南省累计完成绿电交易超过40亿千瓦时。其中，2026年1至10月绿电交易电量达到14.85亿千瓦时，占累计绿电交易电量近四成。目前，云南全省绿色能源交易电量占市场化交易电量比重已经超过90%。",
+      "category": "政治经济",
+      "source": "中新网财经",
+      "url": "https://www.chinanews.com.cn/cj/2026/11-16/10732608.shtml",
+      "publishedAt": "2026-11-16T10:01:56+08:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
       "title": "部分公司会迎来灭顶之灾：谷歌调整漏洞披露政策 从90天缩短到30天 敦促相关方尽快修复漏洞",
       "summary": "#安全资讯 对部分厂商来说这是灭顶之灾：谷歌安全团队决定缩短漏洞公开时间，从 90 天缩短到 30 天。即谷歌安全团队发现漏洞并报告给相关厂商后，漏洞在 30 天后就会被公开细节。谷歌希望通过这种方式敦促厂商收到通报后立即修复漏洞，而不是拖着。谷歌认为 AI 正在加速漏洞发掘和利用过程，即便漏洞没公开，黑客也可能通过 AI 找到漏洞并利用。查看全文：https://ourl.co/128385",
       "category": "政治经济",
@@ -89,16 +99,6 @@ window.NEWS_DATA = {
       "source": "虎嗅",
       "url": "https://www.huxiu.com/article/4905808.html?f=rss",
       "publishedAt": "2026-11-16T09:54:05+08:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
-      "title": "AI时代的饭碗要怎么端",
-      "summary": "近日，腾讯“裁员50%”的传言和随之而来的紧急辟谣，在舆论场激起巨大波澜。裁员传言是对腾讯管理层讲话中“50%像陆军、50%像海军”比喻的误读。但谣言之所以能引发广泛焦虑，恰恰因为它戳中了当下最敏感的神经：AI正在重塑组织结构，每个人都在问自己，我的饭碗还端得稳吗？",
-      "category": "政治经济",
-      "source": "中新网财经",
-      "url": "https://www.chinanews.com.cn/cj/2026/11-16/10732595.shtml",
-      "publishedAt": "2026-11-16T09:41:27+08:00",
       "context": "",
       "verification": "rss_source_excerpt"
     },
