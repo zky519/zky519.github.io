@@ -22,6 +22,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Run selection regression tests
+        run: python -m unittest discover -s scripts -p test_collect_rss.py
       - name: Collect source excerpts
         run: python scripts/collect_rss.py
       - name: Import and label source excerpts
