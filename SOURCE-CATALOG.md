@@ -1,6 +1,6 @@
 # RSS来源目录
 
-候选283，状态统计：{'enabled': 191, 'failed': 28, 'no_recent_content': 48, 'out_of_scope': 14, 'duplicate_redirect': 2}。近期有效订阅独立媒体：56。
+候选283，状态统计：{'enabled': 191, 'failed': 28, 'no_recent_content': 48, 'out_of_scope': 14, 'duplicate_redirect': 2}。近期有效订阅独立媒体：55。
 
 每个地址已实测XML/Atom与近72小时日期；状态是验证时快照，云端每天再次检查内容。频道不等于独立媒体。发现线索：Tidings、awesome-rss-feeds及成熟媒体官方频道；目录不作内容来源。
 
