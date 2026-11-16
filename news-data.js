@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "updatedAt": "2026-11-16T10:03:25.022388+08:00",
+  "updatedAt": "2026-11-16T10:04:03.795959+08:00",
   "reportDate": "2026-11-16",
   "items": [
     {
