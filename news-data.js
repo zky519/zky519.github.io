@@ -1,154 +1,14 @@
 window.NEWS_DATA = {
-  "updatedAt": "2026-11-16T09:34:10.680178+08:00",
+  "updatedAt": "2026-11-16T10:03:25.022388+08:00",
   "reportDate": "2026-11-16",
   "items": [
     {
-      "title": "不调用图像模型，Anthropic Claude Fable 5.2 用 Python 代码模拟真实画笔作画",
-      "summary": "IT之家 11 月 16 日消息，Anthropic 于当地时间 11 月 9 日发布了最新的 Claude Fable 5.2 和 Claude Mythos 5.2 模型。 其中，Fable 5.2 不仅面向复杂编程、科学研究和工程任务，还展示了一种异类的“AI 生图”功能（IT之家注：Anthropic 目前仍无传统意义上的文生图模型，大家常见的 DeepSeek 和 Claude 表情包均由其他模型生成）。 不同于传统图像生成模型的绘画方式：Fable 5.2 可通过编写代码模拟画笔、颜料和画布，逐笔完成绘画，而不是直接调用图像生成模型输出成品。 Fable 5.2 不直接生成图像，而是通过编写代码，在虚拟画布上模拟真实画笔的运动，逐笔完成绘画，甚至能够模拟笔刷纹理、颜料湿润程度以及画布质感，并在发现错误后通过新的笔触进行修正。 目前 Midjourney 等主流 AI 图像生成工具通常采用扩散模型，通过逐步处理随机噪声生成图像。Fable 5.2 则采用另一种思路，将绘画过程拆解成大量独立的笔触指令，由模型自行规划和执行。 Anthropic 员工 Jake Eaton 在 ",
-      "category": "AI行业",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/027/490.htm",
-      "publishedAt": "2026-11-16T01:01:05+00:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
-      "title": "腾讯 WorkBuddy 国际版上线 Gemini 4 Carbon 大模型：支持百万 Token 上下文，暂仅限 Pro 用户使用",
-      "summary": "IT之家 11 月 16 日消息，腾讯 WorkBuddy 国际版昨日宣布，已正式上线谷歌 Gemini 4 Carbon 模型，主要面向需要更深入推理和处理更长任务的使用场景。 官方将其定位为适合处理复杂问题的模型，目前仅面向 Pro 计划用户开放。 IT之家此前报道，谷歌称 Gemini 4 Carbon 模型主要面向长周期智能体工作流，适用于复杂知识工作、软件工程、网络安全和科学推理等任务。模型支持文本、图像、音频和视频输入，输入与输出合计上下文窗口最高可达 100 万 Token。 此次接入意味着 WorkBuddy Pro 用户可以在该平台内调用 Gemini 4 Carbon，无需仅通过谷歌自有产品使用。不过，WorkBuddy 官方目前尚未公布该模型在平台内的具体调用额度及使用限制。 相关阅读： 《 腾讯 Workbuddy 致歉：未及时公告优惠活动调整，DeepSeek-V4.1 Flash 积分消耗 5 折结算返还 》 《 腾讯汤道生：WorkBuddy 已覆盖中国企业 500 强中的 50% 》 《 腾讯 WorkBuddy 接入模型 Kimi-K3.1-Pro，支",
-      "category": "AI行业",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/027/487.htm",
-      "publishedAt": "2026-11-16T00:44:37+00:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
-      "title": "消息称黄仁勋考虑重返英伟达担任 CEO，其硅谷盟友正施压董事会",
-      "summary": "IT之家 11 月 16 日消息，据英国《金融时报》昨天报道，黄仁勋正考虑重返英伟达担任首席执行官。如今他在硅谷的多位盟友正向英伟达董事会施压，要求公司重新任命他。 据多名知情人士透露，黄仁勋已经和亲信讨论了重返公司的可能性。与此同时，英伟达董事会还在开展独立调查。 一位黄仁勋的盟友表示， 他们正在组建一个由硅谷高管构成的“作战室” ， 游说黄仁勋重返英伟达 ，并计划争取白宫方面支持。 该人士透露：“除了那些前沿 AI 实验室外，科技界所有大腕都爱戴黄仁勋。” ；他还补充称，这些行动得到了黄仁勋本人的支持。 周末以来，一场要求黄仁勋重新担任英伟达 CEO 的公开行动逐渐升温。特斯拉和 SpaceX CEO 埃隆 · 马斯克（Elon Musk）、Epic Games CEO 蒂姆 · 斯威尼（IT之家注：Tim Sweeney）等高管均公开支持一封联名信，要求英伟达董事会让黄仁勋回来。 黄仁勋在英伟达员工中声誉显赫。辞职后的几天里，多名员工公开呼吁他回归。 不过问题在于，这场复职行动可能遭到华盛顿政策制定者反对。 美国财政部长斯科特 · 贝森特周日表示 ， 黄仁勋离职后 ， 英伟达需要",
-      "category": "AI行业",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/027/470.htm",
-      "publishedAt": "2026-11-15T23:26:25+00:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
-      "title": "韩国税务师考试头名 AI 作弊曝光后，政府全面调查今年国家资格考试",
-      "summary": "IT之家 11 月 15 日消息，据韩联社今日报道，由于税务师考试第一名考生存在利用人工智能进行作弊的行为被曝光，韩国政府决定对今年所有国家资格考试进行全面调查，以打击此类作弊行为。 报道称，劳动部和相关机构决定对在第 63 届税务师考试中发现有 AI 作弊行为的第一名考生 A 进行取消考试成绩的处理，并限制其五年内不得参加该考试，以尽快落实后续措施。 政府还计划年内出台一系列综合措施来防止国家资格考试中的作弊行为，比如引入红外线探测器等设备。此外，他们还将积极配合警方等调查机构的调查，并推进相关指控程序。 报道提到，考生 A 不仅在税务师考试中作弊，甚至在注册会计师第一次考试中也使用了同样的手段进行作弊。鉴于此情况，根据这次作弊行为的模式， 政府计划立即对今年所有国家资格考试中的人工智能作弊行为展开调查 。 同时，还将开设线上线下举报中心，允许人们举报涉及 AI 设备的国家资格考试作弊行为。考试现场的监控也会得到显著加强。将禁止携带或使用智能设备（如智能眼镜）的行为，以及相应的处罚标准明确下来。同时，会增加监管人员关于如何识别这些设备以及采取相应措施的培训时间。 劳动部与公共机构还将",
-      "category": "AI行业",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/027/453.htm",
-      "publishedAt": "2026-11-15T13:42:51+00:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
-      "title": "开源盘古模型 openPangu-2.1-Pro 上线华为云，围绕 Agent 开发、AI 编码、推理优化方向能力升级",
-      "summary": "IT之家 11 月 15 日消息，华为云今日宣布，华为云 MaaS 模型即服务平台正式上线开源盘古模型 openPangu-2.1-Pro。 该模型围绕 Agent 开发、AI 编码和推理优化 三大方向进行能力升级，在深度研究、鸿蒙系统操控、鸿蒙 App 开发、昇腾算子生成及推理链路优化等场景实现增强。 在 Agent 能力方面 ，openPangu-2.1-Pro 基于 10 万余条专项数据优化 Skills 触发、工具选择与调用能力，提升复杂任务规划和执行效果，在深度研究及鸿蒙系统操控等场景实现能力增强。 在代码能力方面 ，新模型重点面向鸿蒙 App 开发和昇腾算子生成进行优化适配。围绕鸿蒙 ArkTS 语言及相关开发任务，持续提升代码生成的准确性和应用可用性；针对昇腾算子开发流程进行专项优化，增强专业代码生成能力，为开发者降低开发门槛、提升研发效率提供支持。 openPangu-2.1-Pro 通过关键算子和推理链路优化，在典型部署场景下实现吞吐效率大幅提升，以更高的资源利用效率支撑高并发应用。同时，通过华为云 MaaS 提供的预置模型 API、调用限流、用量统计及性能监控能力，",
-      "category": "AI行业",
-      "source": "IT之家",
-      "url": "https://www.ithome.com/1/027/450.htm",
-      "publishedAt": "2026-11-15T13:16:54+00:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
-      "title": "刚果（金）埃博拉疫情持续六个月 已致5400余人死亡",
-      "summary": "中新社约翰内斯堡11月15日电 非洲疾控中心15日发布公告称，刚果(金)的本迪布焦型埃博拉疫情已持续六个月，累计报告病例超过1.1万例，死亡病例超过5400例。目前疫情仍在持续蔓延，每周新增病例400至500例。",
-      "category": "政治经济",
-      "source": "中新网国际",
-      "url": "https://www.chinanews.com.cn/gj/2026/11-16/10732536.shtml",
-      "publishedAt": "2026-11-16T09:04:21+08:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
-      "title": "居家机器人，何时进家门？",
-      "summary": "居家机器人，何时进家门？(融观中国)",
-      "category": "政治经济",
-      "source": "中新网财经",
-      "url": "https://www.chinanews.com.cn/cj/2026/11-16/10732556.shtml",
-      "publishedAt": "2026-11-16T08:27:35+08:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
-      "title": "“政策落地相当实惠”——居民购房贷款贴息政策落地满月观察",
-      "summary": "“政策落地相当实惠”(财经深一度)",
-      "category": "政治经济",
-      "source": "中新网财经",
-      "url": "https://www.chinanews.com.cn/cj/2026/11-16/10732553.shtml",
-      "publishedAt": "2026-11-16T08:17:10+08:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
-      "title": "停飞影响持续 美航空运输预计16日全面恢复 空管老旧问题再受关注",
-      "summary": "当地时间15日，美国交通部长达菲表示，美国航空运输预计当天逐步恢复正常，受飞机和机组人员不在预定执勤位置影响，可能到16日才能全面恢复。",
-      "category": "政治经济",
-      "source": "中新网国际",
-      "url": "https://www.chinanews.com.cn/gj/2026/11-16/10732550.shtml",
-      "publishedAt": "2026-11-16T08:04:58+08:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
-      "title": "美国“火神”火箭未能将亚马逊卫星送入预定轨道",
-      "summary": "中新网11月16日电 据哥伦比亚广播公司(CBS)报道，当地时间15日，美国联合发射联盟公司的“火神”运载火箭执行亚马逊低地轨道卫星发射任务，但升空约10分钟后出现异常，未能将搭载的40颗宽带通信卫星送入预定轨道。",
-      "category": "政治经济",
-      "source": "中新网国际",
-      "url": "https://www.chinanews.com.cn/gj/2026/11-16/10732548.shtml",
-      "publishedAt": "2026-11-16T07:54:47+08:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
-      "title": "全面重制：《超级肉肉男孩Again+》正式公布",
-      "summary": "开发商 Team Meat 于今日公布了《超级肉肉男孩Again+》。作为2010年发售的 《超级肉肉男孩》 的全面升级版本，《超级肉肉男孩Again+》延续了高难度的平台跳跃玩法，包含300多个关卡以及电锯机关。与此同时，原版作曲家 Danny B 也回归负责配乐。 为了让熟悉原作的老玩家获得新鲜的挑战，Team Meat 在《超级肉肉男孩Again+》中全面重制了美术画面、音乐和动画过场，并加入了新关卡、新秘密以及新的可解锁内容。工作室表示不会提前剧透新增内容，玩家将像初次接触原作一样直接上手探索。 Team Meat 表示，《超级肉肉男孩Again+》既能让老玩家重温怀旧体验，也能为当年错过原作的新玩家提供一款上手简单但精通难的平台游戏。",
-      "category": "单机游戏",
-      "source": "机核",
-      "url": "https://www.gcores.com/articles/222387",
-      "publishedAt": "2026-11-16T09:25:00+08:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
-      "title": "听完这期，搞清楚游戏里的所有反派！解析《影之刃零》里的局",
-      "summary": "本期时间轴制作：天行 庞镇的乱，是谁布下的局？ 侠客的刃，又该向何处去？ 如果你觉得《影之刃零》里的故事不够吸引你，那不如来试试这期节目。",
-      "category": "单机游戏",
-      "source": "机核",
-      "url": "https://www.gcores.com/radios/222021",
-      "publishedAt": "2026-11-15T23:00:00+08:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
-      "title": "【会员抽奖】原作者执导，原版演员回归！游戏版《东北往事》登陆主机平台",
-      "summary": "由 NiuGamer 发行、二狗科技开发的真人互动影视作品《东北往事》（DONGDA Gangster）现已正式登陆 Xbox 与 PlayStation 5 平台，Nintendo Switch 版将于11月26日正式发售。游戏将玩家带回上世纪80、90年代暗流汹涌的中国东北街头，在这个新旧秩序交替的时代，你将扮演主角赵红兵，在兄弟义气、地盘争夺与红颜羁绊的漩涡中，走出独属于你的江湖之路。 <内嵌内容，请前往机核查看> PlayStation游戏页面： https://store.playstation.com/zh-hans-hk/concept/10019990 XBOX游戏页面： https://www.xbox.com/zh-HK/games/store/5p2x5yyx5b6a5lql/9n3f6w0jdmwj 【金牌班底，原味再造】 本作深度改编自孔二狗所著的国民级畅销小说《东北往事之黑道风云20年》（全系列销量超4000万册）。由原著作者孔二狗亲自执导，确保剧情精髓；由互动影游制作人帝皇今指导制作。更有原班明星阵容回归，在尽可能保留原汁原味的基础上进行适当改编，为你带来",
-      "category": "单机游戏",
-      "source": "机核",
-      "url": "https://www.gcores.com/articles/222316",
-      "publishedAt": "2026-11-15T10:00:00+08:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
-      "title": "GTA6 终极前瞻：史上最大改动到来 | 走神大师233",
-      "summary": "GTA6 终极前瞻：史上最大改动到来 | 走神大师233 参与人员：EK、Lost OP&ED：Flower In A Hurricane 再见，旧时代。 11 月 19 日，GTA6 即将到来。正如此前所承诺的，我们搜罗了全网资料，观看了各种演示、采访以及盘点，将 GTA6 的冰山一角里里外外挖了个遍。 本期节目将带大家一起了解 GTA6 目前所公布的所有官方确认情报，包括老系统的提升、新内容的到来，乃至“违背祖训”的系列最大改动。本节目不含剧透，小道流言会事先说明，将为大家带来最具可信度、最全的 GTA6 前瞻情报。 欢迎收听。 本期话题： 04:00偷车系统大幅更新 08:45师承《马克思·佩恩3》的战斗 11:10通缉系统细分多种状态 15:17最重要的抢劫内容详解与实际流程 26:23似曾相识的安全屋内容 29:30分区域的罪恶都市天气 31:25更细致的城区 33:35“骑我”打车软件与公共交通工具 37:25有史以来的 GTA 乃至 Rockstar 游戏的最大底层改动！ 39:00角色健身和体重系统回归 41:54耳机到底有什么用 45:11一些细节：地图机制、经典角色",
-      "category": "单机游戏",
-      "source": "机核",
-      "url": "https://www.gcores.com/radios/222377",
-      "publishedAt": "2026-11-14T17:30:00+08:00",
-      "context": "",
-      "verification": "rss_source_excerpt"
-    },
-    {
-      "title": "拳头游戏公布《英雄联盟》赛事未来展望",
-      "summary": "在2026全球总决赛期间的英雄联盟前瞻发布会上，拳头游戏首次分享了英雄联盟赛事未来发展的最新计划，包括国际赛事规划的更新、全新的赛事举办城市，以及将为2027赛季拉开序幕的特别版全球先锋赛。 从季中冠军赛首次落地西班牙，到全球总决赛横跨日本和韩国两地举办，拳头游戏始终在探索更多可能，把最高水平的英雄联盟竞技盛宴带给世界各地的粉丝。2027年，拳头游戏还将更进一步，带来迄今规模最大的赛事——First Stand: All In。 以下是官方本次宣布的所有内容： 2027 First Stand: All In - 中国 2027年，拳头游戏将以一场特别的赛事，拉开英雄联盟新赛季国际赛事的序幕！ 全球先锋赛将在2027年迎来扩张，升级为特别版——First Stand: All In。这将是一届仅在2027年举办的特别赛事，赛事将汇聚更多的队伍、更多的选手，以及来自全球各地的玩家与电竞社区，来共同开启全新赛季。 First Stand: All In 将在中国举办，并成为拳头游戏迄今为止规模最大的赛事。届时，来自世界各地的队伍将有机会登上国际舞台，展开巅峰对决。这届特别版全球先锋赛将以不",
-      "category": "单机游戏",
-      "source": "机核",
-      "url": "https://www.gcores.com/articles/222361",
-      "publishedAt": "2026-11-14T17:23:19+08:00",
+      "title": "Lewis Hamilton urges F1 to ‘push harder and move faster’ on diversity",
+      "summary": "Former champion calls for more equality in recruitment ‘Inspiration means nothing without opportunity’ Lewis Hamilton has demanded Formula One does more to deliver on diversity and inclusion, warning that the future of the sport is dependent on taking robust action to address inequality in recruitment. Hamilton has called on F1 to make greater investments, more extensive recording and publishing of data of who is in the sport and a commitment from teams to guarantee a number of paid early-career",
+      "category": "F1",
+      "source": "Guardian sport/formulaone",
+      "url": "https://www.theguardian.com/sport/2026/nov/16/lewis-hamilton-urges-f1-push-harder-move-faster-diversity",
+      "publishedAt": "2026-11-16T00:01:27+00:00",
       "context": "",
       "verification": "rss_source_excerpt"
     },
@@ -163,12 +23,152 @@ window.NEWS_DATA = {
       "verification": "rss_source_excerpt"
     },
     {
-      "title": "Topps reveals Gem Mint 10 Lando Norris card with Coca-Cola suit patch",
-      "summary": "Topps has shared one of its rarest Lando Norris cards: a signed 2024 Dynasty Formula 1 card with two pieces of race suit, one of them cut from the Coca-Cola logo on the sleeve of his McLaren race suit. The Topps Racing account posted a short video of the card on Instagram on Friday, with the caption \"This Lando Norris patch auto goes CRAZY!\" The card comes from the Single Driver Dual Relic ... Keep reading",
-      "category": "F1",
-      "source": "Motorsport F1",
-      "url": "https://www.motorsport.com/f1/news/topps-reveals-gem-mint-10-lando-norris-card-with-coca-cola-suit-patch/10874731/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=www",
-      "publishedAt": "2026-11-15T22:47:39+00:00",
+      "title": "不调用图像模型，Anthropic Claude Fable 5.2 用 Python 代码模拟真实画笔作画",
+      "summary": "IT之家 11 月 16 日消息，Anthropic 于当地时间 11 月 9 日发布了最新的 Claude Fable 5.2 和 Claude Mythos 5.2 模型。 其中，Fable 5.2 不仅面向复杂编程、科学研究和工程任务，还展示了一种异类的“AI 生图”功能（IT之家注：Anthropic 目前仍无传统意义上的文生图模型，大家常见的 DeepSeek 和 Claude 表情包均由其他模型生成）。 不同于传统图像生成模型的绘画方式：Fable 5.2 可通过编写代码模拟画笔、颜料和画布，逐笔完成绘画，而不是直接调用图像生成模型输出成品。 Fable 5.2 不直接生成图像，而是通过编写代码，在虚拟画布上模拟真实画笔的运动，逐笔完成绘画，甚至能够模拟笔刷纹理、颜料湿润程度以及画布质感，并在发现错误后通过新的笔触进行修正。 目前 Midjourney 等主流 AI 图像生成工具通常采用扩散模型，通过逐步处理随机噪声生成图像。Fable 5.2 则采用另一种思路，将绘画过程拆解成大量独立的笔触指令，由模型自行规划和执行。 Anthropic 员工 Jake Eaton 在 ",
+      "category": "AI行业",
+      "source": "IT之家",
+      "url": "https://www.ithome.com/1/027/490.htm",
+      "publishedAt": "2026-11-16T01:01:05+00:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
+      "title": "反转！黄仁勋考虑重返英伟达，科技大佬连夜组建「作战室」",
+      "summary": "黄仁勋的故事还没有结束 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "category": "AI行业",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1689549?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "publishedAt": "2026-11-16T00:56:45+00:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
+      "title": "英伟达风波引发两党施压 美国国会酝酿收紧AI芯片对华出口限制",
+      "summary": "美国国会正在酝酿进一步收紧先进人工智能芯片对华出口的限制。随着围绕英伟达前首席执行官黄仁勋及其与新加坡商界人士艾丽丝·黄（Alice Huang）关系的争议持续发酵，美国两党议员开始重新审视现有芯片出口管制政策，并推动将更多限制措施写入法律。 阅读全文",
+      "category": "AI行业",
+      "source": "cnBeta",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1586514.htm",
+      "publishedAt": "2026-11-15T20:05:09+00:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
+      "title": "Yelp AI 助手融合原生 UI 与服务端驱动 UI",
+      "summary": "点击查看原文>",
+      "category": "AI行业",
+      "source": "InfoQ中文",
+      "url": "https://www.infoq.cn/article/1N801doFOEl2Swqey5Jy?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-15T15:00:00+00:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
+      "title": "英伟达员工请愿让黄仁勋复职",
+      "summary": "英伟达创始人黄仁勋辞职后公司内部员工发起请愿让他复职。一名员工在内部意见系统上写道：我们都是人、都会犯错，黄仁勋办了那么多好事，理应得到第二次机会。黄仁勋担任英伟达 CEO 长达 33 年，领导公司成为世界市值最高的公司之一，很多员工都认为他对公司的贡献巨大，不应因此遭到抹杀。英伟达员工还通过 LinkedIn 公开表达对他的支持，且无人公开支持罢免他。",
+      "category": "AI行业",
+      "source": "Solidot",
+      "url": "https://www.solidot.org/story?sid=85878",
+      "publishedAt": "2026-11-13T16:33:58+08:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
+      "title": "部分公司会迎来灭顶之灾：谷歌调整漏洞披露政策 从90天缩短到30天 敦促相关方尽快修复漏洞",
+      "summary": "#安全资讯 对部分厂商来说这是灭顶之灾：谷歌安全团队决定缩短漏洞公开时间，从 90 天缩短到 30 天。即谷歌安全团队发现漏洞并报告给相关厂商后，漏洞在 30 天后就会被公开细节。谷歌希望通过这种方式敦促厂商收到通报后立即修复漏洞，而不是拖着。谷歌认为 AI 正在加速漏洞发掘和利用过程，即便漏洞没公开，黑客也可能通过 AI 找到漏洞并利用。查看全文：https://ourl.co/128385",
+      "category": "政治经济",
+      "source": "蓝点网",
+      "url": "https://www.landian.news/archives/128385.html",
+      "publishedAt": "2026-11-16T02:00:00+00:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
+      "title": "Anthropic超级IPO本周“出鞘”",
+      "summary": "本文来自微信公众号： 科创板日报 ，作者：潇湘 在英伟达首席执行官黄仁勋上周突然辞职后，美股AI投资主题虽遭重创，但整体表现仍展现出惊人的韧性。然而，随着Anthropic的超级IPO即将登陆市场，投资者对股市可能陷入动荡的担忧仍在蔓延。 市场普遍忧虑，投资者会选择抛售现有的持仓股票，以便腾出资金抢购这笔庞大的新股…… Anthropic上周二表示，计划在本周通过一场规模空前的首次公开募股向投资者筹集625亿美元，同时还将通过私募融资向包括英伟达和美光科技在内的科技巨头定向募集260亿美元。 业内人士的担忧显然不无道理——近期其他备受瞩目的IPO已经伴随着剧烈波动：6月12日SpaceX创纪录的超大规模发行前仅约一周，市场就因一份强于预期的非农就业报告叠加对该IPO吸血效应的担忧，在6月4日遭遇了一场惨痛的抛售。 该事件也几乎精准踩中了本轮半导体涨势的顶部。FactSet数据显示，自那以来，英伟达股价已累计下挫逾20%，追踪该板块的基准指数也大幅回落，远低于6月份的高点。 Nationwide首席市场策略师Mark Hackett指出：“尤其是在当前复杂交织的背景下，市场的担忧完全合情",
+      "category": "政治经济",
+      "source": "虎嗅",
+      "url": "https://www.huxiu.com/article/4905808.html?f=rss",
+      "publishedAt": "2026-11-16T09:54:05+08:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
+      "title": "AI时代的饭碗要怎么端",
+      "summary": "近日，腾讯“裁员50%”的传言和随之而来的紧急辟谣，在舆论场激起巨大波澜。裁员传言是对腾讯管理层讲话中“50%像陆军、50%像海军”比喻的误读。但谣言之所以能引发广泛焦虑，恰恰因为它戳中了当下最敏感的神经：AI正在重塑组织结构，每个人都在问自己，我的饭碗还端得稳吗？",
+      "category": "政治经济",
+      "source": "中新网财经",
+      "url": "https://www.chinanews.com.cn/cj/2026/11-16/10732595.shtml",
+      "publishedAt": "2026-11-16T09:41:27+08:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
+      "title": "AI泡沫监测·之三：英伟达的毛利期权——一张美国AI泡沫的层积图",
+      "summary": "英伟达五万亿估值的本质，是70%以上毛利率的期权——全产业链都在替它交租。这篇把债务、选票、公司、收入、全球五层账本拼成一张图：租金退回（毛利归位）与刚性解锁（它亲手废约）两步棋怎么走，11月17日英伟达财报是第一场对账。",
+      "category": "政治经济",
+      "source": "钛媒体",
+      "url": "https://www.tmtpost.com/8206051.html",
+      "publishedAt": "2026-11-16T09:33:00+08:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
+      "title": "Super Agent 进群：今年11.11，多了个会主动干活的\"数字人队长\"",
+      "summary": "本文导读 每年11.11，都是对京东技术保障体系的一次集中检验：高并发流量、复杂业务链路、多团队协同交织在一起，考验的不只是系统稳定性，更是信息聚合、风险判断与协同推进。 今年11.11，京东零售技术保障现场出现了一位新的\"队友\"——数字人队长。它不是简单的问答机器人，也不是替代人的自动化指挥系统，而是面向大促保障场景构建的 AI 作战伙伴，一个典型的 Super Agent。 我们把它与京东内部协同办公工具京 Me 原生打通：大家日常使用的群聊、文档、平台，直接成了 AI 参与协作的工作环境。不需要打开一个新页面，也不需要把背景重新描述一遍——风险发生在哪个群，它就在哪个群干活。 围绕这位\"数字人队长\"，我们和京东零售技术保障团队聊了聊。 01 为什么京东11.11需要“数字人队长”？ Q：大促保障的真正难点是什么？为什么过去的方式不够用了？ A：大促保障的难点，从来不只是\"没有监控配置\"或者\"没有平台工具\"。 真正困难的是，当风险发生时，团队能否在最短时间内回答几个关键问题：现在发生了什么？影响范围多大？最近有没有变更？应该找谁处理？下一步该先降级、回滚，还是其他解决措施？ 过去，",
+      "category": "政治经济",
+      "source": "InfoQ 推荐",
+      "url": "https://www.infoq.cn/article/myl5Mcw3iyCYv3ZJ3hwQ",
+      "publishedAt": "2026-11-16T00:00:00+00:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
+      "title": "全面重制：《超级肉肉男孩Again+》正式公布",
+      "summary": "开发商 Team Meat 于今日公布了《超级肉肉男孩Again+》。作为2010年发售的 《超级肉肉男孩》 的全面升级版本，《超级肉肉男孩Again+》延续了高难度的平台跳跃玩法，包含300多个关卡以及电锯机关。与此同时，原版作曲家 Danny B 也回归负责配乐。 为了让熟悉原作的老玩家获得新鲜的挑战，Team Meat 在《超级肉肉男孩Again+》中全面重制了美术画面、音乐和动画过场，并加入了新关卡、新秘密以及新的可解锁内容。工作室表示不会提前剧透新增内容，玩家将像初次接触原作一样直接上手探索。 Team Meat 表示，《超级肉肉男孩Again+》既能让老玩家重温怀旧体验，也能为当年错过原作的新玩家提供一款上手简单但精通难的平台游戏。",
+      "category": "单机游戏",
+      "source": "机核",
+      "url": "https://www.gcores.com/articles/222387",
+      "publishedAt": "2026-11-16T09:25:00+08:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
+      "title": "《塞尔达传说 时之笛》重制版：在变与不变中巧妙平衡",
+      "summary": "这不是一篇很客观的文章。我是在通关《塞尔达传说 时之笛》重制版后，怀着兴奋、感动，又略感空虚的心情动笔的。 为此特意入手了塞尔达40周年限定主机 《塞尔达传说 时之笛》是游戏史上评分最高的作品，奠定了现代第三人称3D动作冒险游戏的基础范式，影响延续至今。 这份过去的成就，既是往日的荣耀，也是如今重制时的枷锁。如何在保留原始体验与现代化改良之间取得平衡，是一道难题。而《时之笛》重制版的团队对此有着清晰的认知，交出了一份出色的答卷。 要说Switch 2的重制版有什么改变，最直观的自然是画面。但它并非简单地把画面做得更漂亮、更清晰，而是为整个世界加入了丰富的细节，让人觉得海拉鲁是一个真实存在的世界。 举几个例子：当你割下水边的花草时，它们会漂浮在水面上。 地下洞穴的墙壁上，渗出的地下水会汇聚成涓涓细流。 吹奏陶笛时，林克的手指会按照真实的指法在笛身上起落。 对细节的追求还体现在服装设计上。原有的角色造型都增添了许多细节，比如林克服装上的编织与刺绣，玛蓉的服装则换成了更直观的小马花纹。 为了呈现童年林克服饰那种“森林里的孩子们亲手缝制”的手工质感，制作组专门查阅了博物馆中的相关资料，还在现实",
+      "category": "单机游戏",
+      "source": "游研社",
+      "url": "https://www.yystv.cn/p/14626",
+      "publishedAt": "2026-11-13T21:15:00+08:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
+      "title": "【会员抽奖】原作者执导，原版演员回归！游戏版《东北往事》登陆主机平台",
+      "summary": "由 NiuGamer 发行、二狗科技开发的真人互动影视作品《东北往事》（DONGDA Gangster）现已正式登陆 Xbox 与 PlayStation 5 平台，Nintendo Switch 版将于11月26日正式发售。游戏将玩家带回上世纪80、90年代暗流汹涌的中国东北街头，在这个新旧秩序交替的时代，你将扮演主角赵红兵，在兄弟义气、地盘争夺与红颜羁绊的漩涡中，走出独属于你的江湖之路。 <内嵌内容，请前往机核查看> PlayStation游戏页面： https://store.playstation.com/zh-hans-hk/concept/10019990 XBOX游戏页面： https://www.xbox.com/zh-HK/games/store/5p2x5yyx5b6a5lql/9n3f6w0jdmwj 【金牌班底，原味再造】 本作深度改编自孔二狗所著的国民级畅销小说《东北往事之黑道风云20年》（全系列销量超4000万册）。由原著作者孔二狗亲自执导，确保剧情精髓；由互动影游制作人帝皇今指导制作。更有原班明星阵容回归，在尽可能保留原汁原味的基础上进行适当改编，为你带来",
+      "category": "单机游戏",
+      "source": "机核",
+      "url": "https://www.gcores.com/articles/222316",
+      "publishedAt": "2026-11-15T10:00:00+08:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
+      "title": "Police arrest suspect after drive-by shooting at office campus housing Xbox studio inXile",
+      "summary": "Police have arrested a suspect after a drive-by shooting at an office campus in Tustin, California, which is home to Xbox-owned studio inXile Entertainment. Read more",
+      "category": "单机游戏",
+      "source": "Eurogamer",
+      "url": "https://www.eurogamer.net/inxile-office-shooting-tustin-suspect-arrested",
+      "publishedAt": "2026-11-15T17:47:40+00:00",
+      "context": "",
+      "verification": "rss_source_excerpt"
+    },
+    {
+      "title": "YouTuber and comedian Ashens has 1,000 hours in Baldur's Gate 3 and reveals the worst retro game he's ever played: 'By the time you've hacked it to work, it's just no fun whatsoever'",
+      "summary": "<p>Rick has been fascinated by PC gaming since he was seven years old, when he used to sneak into his dad's home office for covert sessions of Doom. He grew up on a diet of similarly unsuitable games, with favourites including Quake, Thief, Half-Life and Deus Ex. Between 2013 and 2022, Rick was games editor of Custom PC magazine and associated website <a href=\"http://bit-tech.net/\" target=\"_blank\">bit-tech.net</a>. But he's always kept one foot in freelance games journalism, writing for publicat",
+      "category": "单机游戏",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/gaming-industry/youtuber-and-comedian-ashens-has-1-000-hours-in-baldurs-gate-3-and-reveals-the-worst-retro-game-hes-ever-played-by-the-time-youve-hacked-it-to-work-its-just-no-fun-whatsoever/",
+      "publishedAt": "2026-11-15T17:00:00+00:00",
       "context": "",
       "verification": "rss_source_excerpt"
     }
