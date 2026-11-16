@@ -12,6 +12,12 @@ from pathlib import Path
 
 TARGETS = {'ai': 5, 'politics_economy': 5, 'games': 5, 'f1': 2}
 SOURCES = [
+ ('机核','https://www.gcores.com/rss','games','international'),
+ ('游研社','https://www.yystv.cn/rss/feed','games','international'),
+ ('触乐','https://www.chuapp.com/feed','games','china'),
+ ('BBC中文','https://feeds.bbci.co.uk/zhongwen/simp/rss.xml','politics_economy','international'),
+ ('中新网财经','https://www.chinanews.com.cn/rss/finance.xml','politics_economy','china'),
+ ('中新网国际','https://www.chinanews.com.cn/rss/world.xml','politics_economy','international'),
  ('IT之家','https://www.ithome.com/rss/','ai','china'),
  ('Solidot','https://www.solidot.org/index.rss','ai','china'),
  ('TechCrunch AI','https://techcrunch.com/category/artificial-intelligence/feed/','ai','international'),
@@ -20,7 +26,6 @@ SOURCES = [
  ('BBC Business','https://feeds.bbci.co.uk/news/business/rss.xml','politics_economy','international'),
  ('BBC Asia','https://feeds.bbci.co.uk/news/world/asia/rss.xml','politics_economy','asia_pacific'),
  ('BBC Technology','https://feeds.bbci.co.uk/news/technology/rss.xml','politics_economy','international'),
- ('人民网财经','http://www.people.com.cn/rss/finance.xml','politics_economy','china'),
  ('GamesRadar','https://www.gamesradar.com/feeds/all/','games','international'),
  ('PC Gamer','https://www.pcgamer.com/rss/','games','international'),
  ('Motorsport F1','https://www.motorsport.com/rss/f1/news/','f1','international'),
@@ -28,7 +33,7 @@ SOURCES = [
 ]
 AI = re.compile(r'\bAI\b|artificial intelligence|GPU|data cent|CUDA|NVIDIA|人工智能|大模型|算力|英伟达|数据中心|智能体|DeepSeek|通义|模型',re.I)
 TECH = re.compile(r'chip|tech|AI|energy|digital|semiconductor|芯片|科技|数字|能源|人工智能',re.I)
-GAME = re.compile(r'witcher|skyrim|resident evil|gta|grand theft|elden ring|baldur|cyberpunk|final fantasy|monster hunter|civilization|fable|persona|metaphor|assassin|hollow knight|silksong|pokemon|zelda|mario|honkai|genshin|game|rpg',re.I)
+GAME = re.compile(r'游戏|遊戲|重制|重製|塞尔达|薩爾達|肉肉男孩|单机|單機|生化危机|最终幻想|怪物猎人|巫师|赛博朋克|艾尔登|空洞骑士|宝可梦|黑神话|明末|Steam|PlayStation|Xbox|witcher|skyrim|resident evil|gta|grand theft|elden ring|baldur|cyberpunk|final fantasy|monster hunter|civilization|fable|persona|metaphor|assassin|hollow knight|silksong|pokemon|zelda|mario|honkai|genshin|game|rpg',re.I)
 EXCLUDE = re.compile(r'best .*deals|coupon|discount code|graphics card|gaming laptop|gaming chair|monitor deal|headset|best .*TV|Fortnite|Valorant|Counter.Strike|League of Legends',re.I)
 
 def clean(s):
@@ -62,10 +67,10 @@ def parse_feed(raw, source, now):
         summary=clean(fields.get('description') or fields.get('summary') or fields.get('encoded') or fields.get('content'))
         text=title+' '+summary
         if category=='ai' and not AI.search(title): continue
-        if category=='games' and (not GAME.search(title) or EXCLUDE.search(title) or re.search(r'Avengers|Disney Plus|Marvel|TV series|movie|Jensen Huang|affair|Nvidia CEO',title,re.I)): continue
-        if category=='f1' and not re.search(r'F1|Formula 1|Grand Prix|Verstappen|Hamilton|Russell|Antonelli|Piastri|Leclerc|Norris|Wolff|Ferrari|Red Bull|Mercedes',title,re.I): continue
+        if category=='games' and (not GAME.search(title) or EXCLUDE.search(title) or re.search(r'Avengers|Disney Plus|Marvel|TV series|movie|Jensen Huang|affair|Nvidia CEO|电影|電影|影视|影視|八卦|手游电竞|电竞赛事',title,re.I)): continue
+        if category=='f1' and not re.search(r'赛车|賽車|大奖赛|大獎賽|维斯塔潘|汉密尔顿|法拉利|F1|Formula 1|Grand Prix|Verstappen|Hamilton|Russell|Antonelli|Piastri|Leclerc|Norris|Wolff|Ferrari|Red Bull|Mercedes',title,re.I): continue
         if category=='f1' and re.search(r'auction|road car|Stirling Moss|SLR McLaren',title,re.I): continue
-        out.append(dict(title=title,summary=summary[:500] or '来源未提供简介，请点击标题阅读原文。',category=category,source_name=name,source_url=link.split('#')[0],published_at=date.isoformat(),region=region,is_tech_related=bool(TECH.search(text)),game_type='unspecified' if category=='games' else None,verification='rss_source_excerpt',ready_for_publication=True,why_it_matters=''))
+        out.append(dict(title=title,summary=summary[:500] or '来源未提供简介，请点击标题阅读原文。',category=category,source_name=name,source_language=('zh' if name in {'IT之家','Solidot','机核','游研社','触乐','BBC中文','中新网财经','中新网国际'} else 'en'),source_url=link.split('#')[0],published_at=date.isoformat(),region=region,is_tech_related=bool(TECH.search(text)),game_type='unspecified' if category=='games' else None,verification='rss_source_excerpt',ready_for_publication=True,why_it_matters=''))
     return out
 
 def fetch(source,now):
@@ -85,7 +90,9 @@ def select(candidates,now):
                 if len(chosen)>=target or count<=0: break
                 if x['source_url'] in seen or key in titles or not predicate(x): continue
                 chosen.append(x);seen.add(x['source_url']);titles.add(key);count-=1
-        # Soft geographic/technology preferences; fill remaining slots by recency.
+        # Prefer recent Chinese originals before geographic soft targets.
+        take(lambda x:x.get('source_language')=='zh' and now-parse_date(x['published_at'])<=dt.timedelta(hours=24),target)
+        take(lambda x:x.get('source_language')=='zh',target)
         if cat in ('ai','politics_economy'): take(lambda x:x['region']=='china',2)
         if cat=='ai': take(lambda x:x['region']=='international',3)
         if cat=='politics_economy':
@@ -98,16 +105,21 @@ def select(candidates,now):
 
 def main():
     now=dt.datetime.now(dt.timezone(dt.timedelta(hours=8)))
-    candidates=[];errors=[]
+    candidates=[];errors=[];source_counts={}
     with cf.ThreadPoolExecutor(max_workers=8) as ex:
         futures={ex.submit(fetch,s,now):s for s in SOURCES}
         for f,s in futures.items():
-            try: candidates.extend(f.result())
-            except Exception as e: errors.append({'source':s[0],'error':type(e).__name__})
+            try:
+                found=f.result();candidates.extend(found);source_counts[s[0]]=len(found)
+            except Exception as e: source_counts[s[0]]=0;errors.append({'source':s[0],'error':type(e).__name__})
     items=select(candidates,now)
     counts={c:sum(x['category']==c for x in items) for c in TARGETS}
-    report=dict(schema_version=1,date=now.date().isoformat(),collected_at=now.isoformat(),status='ready_for_publication',mode='rss_excerpt',counts=counts,shortfalls={c:n-counts[c] for c,n in TARGETS.items() if counts[c]<n},items=items,notice='RSS来源简介，保留原文语言；未经独立事实核查。')
-    Path('rss-run-log.json').write_text(json.dumps(dict(counts=counts,candidates=len(candidates),errors=errors),ensure_ascii=False,indent=2))
+    chinese=sum(x.get('source_language')=='zh' for x in items)
+    ratio=chinese/len(items) if items else 0
+    report=dict(chinese_count=chinese,chinese_ratio=ratio,schema_version=1,date=now.date().isoformat(),collected_at=now.isoformat(),status='ready_for_publication',mode='rss_excerpt',counts=counts,shortfalls={c:n-counts[c] for c,n in TARGETS.items() if counts[c]<n},items=items,notice='RSS来源简介，保留原文语言；未经独立事实核查。')
+    Path('rss-run-log.json').write_text(json.dumps(dict(source_candidates=source_counts,chinese_count=chinese,total=len(items),chinese_ratio=ratio,counts=counts,candidates=len(candidates),errors=errors),ensure_ascii=False,indent=2))
+    if ratio<0.70:
+        sys.exit(f'Chinese source share {chinese}/{len(items)} below 70%; previous website data preserved')
     if len(items)<14 or any(counts[c]<TARGETS[c]/2 for c in TARGETS):
         sys.exit('Insufficient feed coverage; previous website data preserved. See rss-run-log.json')
     p=Path('daily');p.mkdir(exist_ok=True)
