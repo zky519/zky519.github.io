@@ -2928,7 +2928,7 @@
     "url": "https://plink.anyfeeder.com/infoq/recommend",
     "category": "politics_economy",
     "source_language": "zh",
-    "publisher_id": "infoq.cn",
+    "publisher_id": "infoq",
     "region": "international",
     "discovered_from": "https://github.com/fuxiaoai/tidings-rss",
     "final_url": "https://plink.anyfeeder.com/infoq/recommend",

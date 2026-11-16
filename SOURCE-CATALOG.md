@@ -218,7 +218,7 @@
 |Golang Weekly|golangweekly.com|en|politics_economy|no_recent_content|2026-11-13T00:00:00+00:00|https://golangweekly.com/rss/|
 |HackerNews每日摘要 on SuperTechFans|supertechfans.com|zh|politics_economy|enabled|2026-11-16T06:57:32+08:00|https://www.supertechfans.com/cn/index.xml|
 |InfoQ — News|infoq|en|politics_economy|enabled|2026-11-15T20:00:00+00:00|https://feed.infoq.com/|
-|InfoQ 推荐|infoq.cn|zh|politics_economy|enabled|2026-11-16T00:00:00+00:00|https://plink.anyfeeder.com/infoq/recommend|
+|InfoQ 推荐|infoq|zh|politics_economy|enabled|2026-11-16T00:00:00+00:00|https://plink.anyfeeder.com/infoq/recommend|
 |News from Google|google|en|politics_economy|failed||https://blog.google/rss|
 |NPR Topics: World|npr.org|en|politics_economy|enabled|2026-11-15T17:11:26-05:00|https://feeds.npr.org/1004/rss.xml|
 |ProPublica|propublica.org|en|politics_economy|enabled|2026-11-15T10:00:00+00:00|https://www.propublica.org/feeds/propublica/main|
